@@ -16,3 +16,17 @@ body{
     padding: 20%;
     z-index: 9;
 }
+
+@media (min-width: 400px) {
+    #content h1::before{
+        content: "Welcome to Azuraz interests page!";    
+    }
+}
+@media (max-width: 399px) {
+    #content h1::before{
+        content: "Welcome to my page!";    
+    }
+    #content p{
+        display: none;
+    }
+}

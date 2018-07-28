@@ -1,0 +1,10 @@
+body{
+    background-image: url("Images/Apolp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: aquamarine;
+}
+
+p, h1{
+    margin: auto;
+}

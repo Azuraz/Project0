@@ -17,12 +17,12 @@ body{
     z-index: 9;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 700px) {
     #content h1::before{
         content: "Welcome to Azuraz interests page!";    
     }
 }
-@media (max-width: 399px) {
+@media (max-width: 699px) {
     #content h1::before{
         content: "Welcome to my page!";    
     }

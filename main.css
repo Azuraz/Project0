@@ -3,17 +3,18 @@ body{
     background-color: aquamarine;
 }
 
+
 /*Variable content based on screen size*/
 @media (min-width: 700px) {
     #content h1::before{
-        content: "Welcome to Azuraz interests page!";    
+        content: "Welcome to Azuraz interests page!";
+        text-align: center;    
     }
 }
 @media (max-width: 699px) {
     #content h1::before{
         content: "Welcome to my page!";
-        text-align: justify;
-    
+        text-align: center;
     }
     #content p{
         display: none;
@@ -23,8 +24,11 @@ body{
 /*Bootstrap carousel, the sliding background*/
 #carouselExampleControls{
     position: relative;
+    top: 0px;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
     height: 100%;
-    width: 100%;
 }
 
 /*content displayed over the carousel slides*/
@@ -44,44 +48,19 @@ body{
 }
 
 /*menu button*/
-/* Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+#dropdownMenuButton{
+    position: absolute;  
+    background-color: transparent;
+    z-index: 19;
+    float: left;
+    border-color: transparent;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+/*menu font*/
+.dropdown-menu, .dropdown-item{ 
+    font-family: 'Bungee Inline', cursive;
+    color: transparent;
 }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}

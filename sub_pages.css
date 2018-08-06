@@ -1,0 +1,51 @@
+#body {
+    margin: 25px;
+    background-color: khaki;
+}
+
+#top {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9;
+}
+        
+/*menu button*/
+#dropdownMenuButton{
+    float: left;
+    position: absolute;  
+    background-color: transparent;
+    z-index: 19;
+    float: left;
+    border-color: transparent;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/*menu font*/
+.dropdown-menu, .dropdown-item{ 
+    font-family: 'Bungee Inline', cursive;
+    color: transparent;
+}
+
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+        
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.content{
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+
+}

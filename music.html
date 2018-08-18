@@ -15,12 +15,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <style>
         @media (min-width: 650px) {
-        h2::before{
+        h1::before{
           content: "Assorted music list";      
           }
         }
         @media (max-width: 649px) {
-        h2::before{
+        h1::before{
           content: "Music";
           } 
         }
@@ -43,73 +43,104 @@
     </div>
 </div>
 
-    <h2 id="to_top"  class="content"></h2>
+
+    <h1 id="to_top"  class="content"></h1>
     <a href="#to_top">
       <img id="top"  src="Images/up.png" alt="Up arrow" />
     </a>
 
-<div class="polaroid">
+    <table style="width: 100%;">   
+      <tr>
+        <th class="content"  colspan="5" style="text-align: center;" >Quick acess</th>
+      </tr>
+    <tr>
+      <td><a href="#puppets">Master of puppets</a></td>
+      <td><a href="#numb">Numb</a></td>
+      <td><a href="#fear">Fear of dark</a></td>
+      <td><a href="#vodo">voodoo</a></td>
+      <td><a href="#heaven">Wrong side of heaven</a></td>
+    </tr>
+    <tr>
+        <td><a href="#hast">Du Hast</a></td>
+        <td><a href="#comatose">Comatose</a></td>
+        <td><a href="#takes">Whatever it takes</a></td>
+        <td><a href="#martin">Livin' La Vida Loca</a></td>
+        <td><a href="#one">Vengeful one</a></td>
+    </tr>
+    </table>
+    <br/>
+
+    
+<div id="puppets" class="polaroid">
   <img src="Images/master.jpg" alt="Master of puppets" style="width:100%">
   <div class="container">
     <h2 class="content">Master of puppets</h2>
   </div>
 </div>
 
-<div class="polaroid">
+<div id="numb" class="polaroid">
   <img src="Images/linkin.jpg" alt="Linkin park" style="width:100%">
   <div class="container">
     <h2 class="content">Numb</h2>
   </div>
 </div>
 
-<div class="polaroid">
+<div id="fear" class="polaroid">
     <img src="Images/iron.jpg" alt="Iron maiden" style="width:100%">
     <div class="container">
       <h2 class="content">Fear of the dark</h2>
     </div>
   </div>
 
-  <div class="polaroid">
+  <div id="vodo" class="polaroid">
       <img src="Images/godsmack.jpg" alt="Godsmack" style="width:100%">
       <div class="container">
         <h2 class="content">Voodoo</h2>
       </div>
     </div>
 
-    <div class="polaroid">
+    <div id="heaven" class="polaroid">
         <img src="Images/5fdp.png" alt="5FDP" style="width:100%">
         <div class="container">
           <h2 class="content">Wrong side of heaven</h2>
         </div>
       </div>
 
-      <div class="polaroid">
+      <div id="hast" class="polaroid">
         <img src="Images/ram.jpg" alt="Ramstien" style="width:100%">
         <div class="container">
           <h2 class="content">Du Hast</h2>
         </div>
       </div>
 
-      <div class="polaroid">
+      <div id="comatose" class="polaroid">
         <img src="Images/coma.jpg" alt="Skillet" style="width:100%">
         <div class="container">
           <h2 class="content">Comatose</h2>
         </div>
       </div>
 
-      <div class="polaroid">
+      <div id="takes" class="polaroid">
         <img src="Images/dragon.jpg" alt="Imagine Dragons" style="width:100%">
         <div class="container">
           <h2 class="content">Whatever it takes</h2>
         </div>
       </div>
 
-      <div class="polaroid">
+      <div id="martin" class="polaroid">
         <img src="Images/ricky.jpg" alt="Ricky martin" style="width:100%">
         <div class="container">
           <h2 class="content">Livin' La Vida Loca</h2>
         </div>
       </div>
+
+      <div id="one" class="polaroid">
+        <img src="Images/disturbd.jpg" alt="Ricky martin" style="width:100%">
+        <div class="container">
+          <h2 class="content">Vengeful one</h2>
+        </div>
+      </div>
+
 </body>
 
 </html>

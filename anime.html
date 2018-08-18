@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Anime</title>
+    <link rel="icon" href="Images/icon.jpg" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="sub_pages.css" />
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
@@ -12,7 +13,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</head>
+    
+    <style>
+      @media (min-width: 500px) {
+      h1::before{
+        content: "Assorted anime list";      
+        }
+      }
+      @media (max-width: 499px) {
+      h1::before{
+        content: "Anime";
+        } 
+      }
+    </style>
+
+  </head>
 
 <body id="body">
 
@@ -29,50 +44,144 @@
     </div>
 </div>
 
-    <h1 id="to_top"  class="content">Assorted anime list</h1>
+    <div id="to_top" class="content">
+      <h1></h1>
+    </div>
     <a href="#to_top">
       <img id="top"  src="Images/up.png" alt="Up arrow" />
     </a>
 
-<div class="polaroid">
+<table style="width: 100%;">   
+  <tr>
+    <th class="content"  colspan="5" style="text-align: center;" >Quick acess</th>
+  </tr>
+<tr>
+  <td><a href="#naruto">Naruto</a></td>
+  <td><a href="#dragon">Dragon Ball</a></td>
+  <td><a href="#bleach">Bleach</a></td>
+  <td><a href="#note">Death Note</a></td>
+  <td><a href="#shimoneta">Shimoneta</a></td>
+</tr>
+<tr>
+    <td><a href="#beebop">CowBoy Beebop</a></td>
+    <td><a href="#hell">Hellsing</a></td>
+    <td><a href="#gto">GTO</a></td>
+    <td><a href="#buttler">Hayate</a></td>
+    <td><a href="#fairy">Fairy tail</a></td>
+</tr>
+</table>
+<br/>
+
+<div id="naruto" class="polaroid">
   <img src="Images/naruto1.jpg" alt="Naruto" style="width:100%">
   <div class="container">
     <h2 class="content">Naruto</h2>
     <p>The cool ninja based anime with an awesome story line. <a target="_blank" href="http://ww8.kiss-anime.me/Anime/naruto%E3%83%8A%E3%83%AB%E3%83%88anime">Watch Here</a></p>
   </div>
 </div>
+<ul>
+    <li>Number of movies: 10 (Excluding Boruto) </li>
+  </ul>
 
-<div class="polaroid">
+<div id="dragon" class="polaroid">
   <img src="Images/Dragon-Ball.jpg" alt="Dragon-Ball" style="width:100%">
   <div class="container">
     <h2 class="content">Dragon Ball</h2>
     <p>The super cool alien super power based anime. Say Hi! to the Saiyans.<a target="_blank" href="http://ww8.kiss-anime.me/Anime/dragon-ball">Watch here</a></p>
   </div>
 </div>
+<ul>
+  <li>Number of movies: 17 (Excluding Dragon Ball: Super) </li>
+</ul>
 
-<div class="polaroid">
+<div id="bleach" class="polaroid">
     <img src="Images/bleach.jpg" alt="Bleach" style="width:100%">
     <div class="container">
       <h2 class="content">Bleach</h2>
       <p>The anime with the coolest swords. Cool fights but not much of a story line.<a target="_blank" href="http://ww8.kiss-anime.me/Anime/bleachs">Watch here</a></p>
     </div>
   </div>
+  <ul>
+      <li>Number of movies: 4 </li>
+    </ul>
 
-  <div class="polaroid">
+  <div id="note" class="polaroid">
       <img src="Images/death-note.jpg" alt="Death Note" style="width:100%">
       <div class="container">
         <h2 class="content">Death Note</h2>
         <p>Anime with the best story line. One shot anime worth every second of watching. <a target="_blank" href="https://www.youtube.com/watch?v=jWxNXUlgYyo">Watch here</a></p>
       </div>
     </div>
+    <ul>
+        <li>No movie.</li>
+      </ul>
 
-    <div class="polaroid">
+    <div id="shimoneta" class="polaroid">
         <img src="Images/Shinameto.jpg" alt="Shinameto" style="width:100%">
         <div class="container">
           <h2 class="content">Shimoneta</h2>
           <p>If you like adult humor, this is it. The world where dirty jokes are a taboo <a target="_blank" href="http://ww8.kiss-anime.me/Anime/shimoneta-to-iu-gainen-ga-sonzai-shinai-taikutsu-na-sekai">Watch here</a></p>
         </div>
       </div>
+      <ul>
+          <li>No movie.</li>
+        </ul>
+
+      <div id="beebop" class="polaroid">
+          <img src="Images/beebop.jpg" alt="CowBoy Beebop" style="width:100%">
+          <div class="container">
+            <h2 class="content">CowBoy Beebop</h2>
+            <p>A Sci-Fi anime. The space cowboy with a good story line. <a target="_blank" href="http://kissanime.ru/Anime/Cowboy-Bebop">Watch here</a></p>
+          </div>
+        </div>
+        <ul>
+            <li>Number of movies: 1 </li>
+          </ul>
+
+      
+      <div id="hell" class="polaroid">
+          <img src="Images/hellsing.jpg" alt="Hellsing" style="width:100%">
+          <div class="container">
+            <h2 class="content">Hellsing</h2>
+            <p>The vampire based anime. <a target="_blank" href="http://kissanime.ru/Anime/Hellsing-Dub">Watch here</a></p>
+          </div>
+        </div>
+        <ul>
+            <li>No movie. </li>
+          </ul>
+
+        <div id="gto" class="polaroid">
+            <img src="Images/gto.jpg" alt="GTO" style="width:100%">
+            <div class="container">
+              <h2 class="content">Great teacher Onizuka</h2>
+              <p>A gangster turned teacher anime. The coolest teacher you can have!<a target="_blank" href="http://kissanime.ru/Anime/Great-Teacher-Onizuka">Watch here</a></p>
+            </div>
+          </div>
+          <ul>
+              <li>No movie.</li>
+            </ul>
+
+          <div id="buttler" class="polaroid">
+              <img src="Images/buttler.jpg" alt="Combat buttler" style="width:100%">
+              <div class="container">
+                <h2 class="content">Hayate the Combat Butler</h2>
+                <p>A light hearted comedy anime where a guy with the worst luck becomes a buttler for a rich girl.<a target="_blank" href="http://kissanime.ru/Anime/Hayate-no-Gotoku-S1-Dub">Watch here</a></p>
+              </div>
+            </div>
+            <ul>
+                <li>Number of movies: 1 </li>
+              </ul>
+
+            <div id="fairy" class="polaroid">
+                <img src="Images/fairy.jpeg" alt="Fairy Tail" style="width:100%">
+                <div class="container">
+                  <h2 class="content">Fairy Tail</h2>
+                  <p>Fairies different kinds of fairies and all kind of them.<a target="_blank" href="http://kissanime.ru/Anime/Fairy-Tail-2014-Dub">Watch here</a></p>
+                </div>
+              </div>
+              <ul>
+                  <li>Number of movies: 2</li>
+                </ul>
 </body>
 
 </html>

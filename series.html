@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Anime</title>
+    <title>Series</title>
+    <link rel="icon" href="Images/icon.jpg" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="sub_pages.css" />
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
@@ -12,7 +13,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</head>
+    <style>
+        @media (min-width: 650px) {
+        h1::before{
+          content: "Assorted series list";      
+          }
+        }
+        @media (max-width: 649px) {
+        h1::before{
+          content: "Series";
+          } 
+        }
+      </style>
+
+  </head>
 
 <body id="body">
 
@@ -24,55 +38,116 @@
       <a class="dropdown-item" href="index.html">Main</a>
       <a class="dropdown-item" href="anime.html">Anime</a>
       <a class="dropdown-item" href="movie.html">Movie</a>
-        <a class="dropdown-item" href="music.html">Music</a>
-        <a class="dropdown-item" href="series.html">Series</a>
+      <a class="dropdown-item" href="music.html">Music</a>
+      <a class="dropdown-item" href="series.html">Series</a>
     </div>
 </div>
 
-    <h1 id="to_top"  class="content">Assorted anime list</h1>
+    <h1 id="to_top"  class="content"></h1>
     <a href="#to_top">
       <img id="top"  src="Images/up.png" alt="Up arrow" />
     </a>
 
-<div class="polaroid">
-  <img src="Images/naruto1.jpg" alt="Naruto" style="width:100%">
+    <table style="width: 100%;">   
+      <tr>
+        <th class="content"  colspan="5" style="text-align: center;" >Quick acess</th>
+      </tr>
+    <tr>
+      <td><a href="#jerry">Seinfeld</a></td>
+      <td><a href="#crowd">IT Crowd</a></td>
+      <td><a href="#family">Modern family</a></td>
+      <td><a href="#half">Two and a half men</a></td>
+      <td><a href="#castle">Castle</a></td>
+    </tr>
+    <tr>
+        <td><a href="#mentalist">The mentalist</a></td>
+        <td><a href="#dexter">Dexter</a></td>
+        <td><a href="#weapon">Lethal weapon</a></td>
+        <td><a href="#super">Supernatural</a></td>
+        <td><a href="#rick">Rick and Morty</a></td>
+    </tr>
+    </table>
+    <br/>
+
+<div id="jerry" class="polaroid">
+  <img src="Images/seinfeld.jpg" alt="Seinfeld" style="width:100%">
   <div class="container">
-    <h2 class="content">Naruto</h2>
-    <p>The cool ninja based anime with an awesome story line. <a target="_blank" href="http://ww8.kiss-anime.me/Anime/naruto%E3%83%8A%E3%83%AB%E3%83%88anime">Watch Here</a></p>
+    <h2 class="content">Seinfeld</h2>
+    <p>Sitcom based on four friends, one of then is a stand up comedian Seinfeld. <a target="_blank" href="http://kissanime.ru/Anime/Naruto-Dub">Watch Here</a></p>
   </div>
 </div>
 
-<div class="polaroid">
-  <img src="Images/Dragon-Ball.jpg" alt="Dragon-Ball" style="width:100%">
+<div id="crowd" class="polaroid">
+  <img src="Images/it.jpg" alt="IT Crowd" style="width:100%">
   <div class="container">
-    <h2 class="content">Dragon Ball</h2>
-    <p>The super cool alien super power based anime. Say Hi! to the Saiyans.<a target="_blank" href="http://ww8.kiss-anime.me/Anime/dragon-ball">Watch here</a></p>
+    <h2 class="content">IT Crowd</h2>
+    <p>British sitcom baseed on the everyday life of 2 IT guys.<a target="_blank" href="http://kissanime.ru/Anime/Dragon-Ball-Dub">Watch here</a></p>
   </div>
 </div>
 
-<div class="polaroid">
-    <img src="Images/bleach.jpg" alt="Bleach" style="width:100%">
+<div id="family" class="polaroid">
+    <img src="Images/family.jpg" alt="Modern Family" style="width:100%">
     <div class="container">
-      <h2 class="content">Bleach</h2>
-      <p>The anime with the coolest swords. Cool fights but not much of a story line.<a target="_blank" href="http://ww8.kiss-anime.me/Anime/bleachs">Watch here</a></p>
+      <h2 class="content">Modern Family</h2>
+      <p>Light hearted comedy with a pinch of moral which revolves around a family.<a target="_blank" href="http://kissanime.ru/Anime/Bleach-Dub">Watch here</a></p>
     </div>
   </div>
 
-  <div class="polaroid">
-      <img src="Images/death-note.jpg" alt="Death Note" style="width:100%">
+  <div id="half" class="polaroid">
+      <img src="Images/half.jpg" alt="Two and a half men" style="width:100%">
       <div class="container">
-        <h2 class="content">Death Note</h2>
-        <p>Anime with the best story line. One shot anime worth every second of watching. <a target="_blank" href="https://www.youtube.com/watch?v=jWxNXUlgYyo">Watch here</a></p>
+        <h2 class="content">Two and a half men</h2>
+        <p>Broke Dad, Rich playboy uncle and innocent nephew. The two and a half men.<a target="_blank" href="https://www.youtube.com/watch?v=jWxNXUlgYyo">Watch here</a></p>
       </div>
     </div>
 
-    <div class="polaroid">
-        <img src="Images/Shinameto.jpg" alt="Shinameto" style="width:100%">
+    <div id="castle" class="polaroid">
+        <img src="Images/castle.jpg" alt="Castle" style="width:100%">
         <div class="container">
-          <h2 class="content">Shimoneta</h2>
-          <p>If you like adult humor, this is it. The world where dirty jokes are a taboo <a target="_blank" href="http://ww8.kiss-anime.me/Anime/shimoneta-to-iu-gainen-ga-sonzai-shinai-taikutsu-na-sekai">Watch here</a></p>
+          <h2 class="content">Castle</h2>
+          <p>An unusual pair up of a hot homicide detective and a handsome successful novelist.<a target="_blank" href="http://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai-Dub">Watch here</a></p>
         </div>
       </div>
+
+      <div id="mentalist" class="polaroid">
+          <img src="Images/mental.jpg" alt="Mentalist" style="width:100%">
+          <div class="container">
+            <h2 class="content">The mentalist</h2>
+            <p>A con artist decides to help the police after a serial killer murders his wife and daughter.<a target="_blank" href="http://kissanime.ru/Anime/Cowboy-Bebop">Watch here</a></p>
+          </div>
+        </div>
+
+        <div id="dexter" class="polaroid">
+          <img src="Images/dexter.jpg" alt="Dexter" style="width:100%">
+          <div class="container">
+            <h2 class="content">Dexter</h2>
+            <p>Blood splatter analyst with a family and friends in day, at night, a blood thirsty vigilanty serial killer.<a target="_blank" href="http://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai-Dub">Watch here</a></p>
+          </div>
+        </div>
+
+        <div id="weapon" class="polaroid">
+          <img src="Images/lethal.jpg" alt="Lehthal weapon" style="width:100%">
+          <div class="container">
+            <h2 class="content">Lethal Weapon</h2>
+            <p>One detective with a family and another who just lost everything and do no think twice before risking his life.<a target="_blank" href="http://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai-Dub">Watch here</a></p>
+          </div>
+        </div>
+
+        <div id="super" class="polaroid">
+          <img src="Images/super.jpg" alt="Supernatural" style="width:100%">
+          <div class="container">
+            <h2 class="content">Supernatural</h2>
+            <p>Two brothers who hunt demons and saves the world while constantly saving each other.<a target="_blank" href="http://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai-Dub">Watch here</a></p>
+          </div>
+        </div>
+
+        <div id="rick" class="polaroid">
+          <img src="Images/morty.jpg" alt="Rick and Morty" style="width:100%">
+          <div class="container">
+            <h2 class="content">Rick and Morty </h2>
+            <p>Insanely genius grandfather takes his grandchildren on insane adventures with his portal gun.<a target="_blank" href="http://kissanime.ru/Anime/Shimoneta-to-Iu-Gainen-ga-Sonzai-Shinai-Taikutsu-na-Sekai-Dub">Watch here</a></p>
+          </div>
+        </div>
 </body>
 
 </html>

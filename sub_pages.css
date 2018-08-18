@@ -49,3 +49,8 @@ div.container {
     font-family: 'Bungee Inline', cursive;
 
 }
+
+table, tr {
+   border: 1px solid whitesmoke;   
+    text-align: center;
+}
